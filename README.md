@@ -5,13 +5,12 @@
 
 ## Requirements
 
-- Python 3.12 및 fastapi 0.11
+- Python 3.12
 
 
 ## Install
 
 ```bash
-# fork to your github account & git cloning your forked repository
 pip install poetry
 poetry install
 poetry run uvicorn main:app --reload --host=0.0.0.0 --port=8000
